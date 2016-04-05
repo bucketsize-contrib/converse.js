@@ -243,7 +243,7 @@
             text-align: center;
             display: inline;
             overflow: hidden;
-            font-size: 12px;
+            font-size: $tabs-font-size; //jb
             list-style-type: none;
 
             /* single tab */
@@ -261,7 +261,7 @@
                     box-shadow: inset 2px -2px 20px rgba(0, 0, 0, 0.3);
                     color: $text-color;
                     display: block;
-                    font-size: 12px;
+                    font-size: $tabs-font-size;
                     height: $chat-head-height - 1px;
                     line-height: $chat-head-height - 1px;
                     margin: 0;

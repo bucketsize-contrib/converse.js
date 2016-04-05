@@ -7,9 +7,9 @@
         @media screen and (max-width: $mobile-portrait-length) {
             border-radius: 0;
         }
-        bottom: $chatbox-hover-height;
+        top: $chatbox-hover-height; //jb 
         display: block;
-        position: absolute;
+        position: fixed;
         @media screen and (max-height: $mobile-landscape-height) {
             bottom: 0;
         }
@@ -74,7 +74,7 @@
     }
     .chatbox {
         display: block;
-        float: right;
+        float: left; // [jb]
         height: $bottom-gutter-height;
         margin: 0 $chat-gutter;
         width: $chat-width;
@@ -90,7 +90,7 @@
             background-color: white;
             box-shadow: 1px 3px 5px 3px rgba(0, 0, 0, 0.4);
             height: $chat-height;
-            min-height: $chat-height/2;
+            min-height: $chat-height; //jb
             min-width: $chat-width;
             width: $chat-width;
             z-index: 1;
