@@ -1,0 +1,14 @@
+<link rel="stylesheet" type="text/css" media="screen" href="css/converse.css">
+<script src="builds/converse.min.js"></script>
+
+<script>
+require(['converse'], function (converse) {
+    converse.initialize({
+        //bosh_service_url: 'https://conversejs.org/http-bind/',
+        bosh_service_url: 'https://xmpp.jp/http-bind/',
+        i18n: locales.en,
+        show_controlbox_by_default: true,
+        roster_groups: true
+    });
+});
+</script>
