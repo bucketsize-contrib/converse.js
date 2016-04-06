@@ -1029,7 +1029,7 @@
   #conversejs input[type=submit], #conversejs input[type=button],
   #conversejs input[type=text], #conversejs input[type=password],
   #conversejs button {
-    font-size: 44px;
+    font-size: 20px;
     padding: 0.25em;
     min-height: 0; }
   #conversejs strong {
@@ -1051,7 +1051,7 @@
   color: #818479;
   direction: ltr;
   display: block;
-  font-size: 44px;
+  font-size: 20px;
   height: 35px;
   position: fixed;
   left: 0;
@@ -1077,7 +1077,7 @@
     -ms-user-select: none;
     user-select: none; }
   #conversejs .emoticon {
-    font-size: 44px; }
+    font-size: 20px; }
   #conversejs .left {
     float: left; }
   #conversejs .right {
@@ -1333,7 +1333,7 @@
         border-bottom-right-radius: 0; } }
     #conversejs .chatbox .chat-body p {
       color: #818479;
-      font-size: 44px;
+      font-size: 20px;
       margin: 0;
       padding: 5px; }
     #conversejs .chatbox .chat-body .chat-info {
@@ -1417,7 +1417,7 @@
       width: 100%;
       resize: none; }
     #conversejs .chatbox form.sendXMPPMessage .chat-toolbar {
-      font-size: 44px;
+      font-size: 20px;
       margin: 0;
       padding: 5px;
       height: 25px;
@@ -1469,7 +1469,7 @@
         color: #2A9D8F;
         padding-left: 5px; }
         #conversejs .chatbox form.sendXMPPMessage .chat-toolbar .toggle-smiley ul li {
-          font-size: 44px;
+          font-size: 20px;
           padding: 5px;
           z-index: 98; }
         #conversejs .chatbox form.sendXMPPMessage .chat-toolbar .toggle-smiley ul li:hover {
@@ -1692,7 +1692,7 @@
     text-align: center;
     display: inline;
     overflow: hidden;
-    font-size: 40px;
+    font-size: 16px;
     list-style-type: none;
     /* single tab */ }
     #conversejs #controlbox #controlbox-tabs li {
@@ -1709,7 +1709,7 @@
         box-shadow: inset 2px -2px 20px rgba(0, 0, 0, 0.3);
         color: #818479;
         display: block;
-        font-size: 40px;
+        font-size: 16px;
         height: 54px;
         line-height: 54px;
         margin: 0;
@@ -1757,7 +1757,7 @@
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     border: 0;
-    font-size: 44px;
+    font-size: 20px;
     position: absolute;
     text-align: center;
     width: 100%;
@@ -1767,7 +1767,7 @@
     overflow-y: auto;
     overflow-x: hidden; }
     #conversejs #controlbox .controlbox-pane label {
-      font-size: 44px;
+      font-size: 20px;
       font-weight: bold;
       height: auto;
       margin: 4px; }
@@ -1838,7 +1838,7 @@
       float: left;
       background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABNSURBVHjaXI7BDcAwCAMvyQjMyQ6dAbZiKfqoUK34g2zJh1dENIC7M8pMAPYdzAVY3d0ajNz9aypS/b5R6o+ZPdqoKgCq6h80KH3xDgBqNR97p8oAGQAAAABJRU5ErkJggg==) no-repeat right -20px center;
       border: 1px solid #999;
-      font-size: 44px;
+      font-size: 20px;
       height: 25px;
       margin: 0;
       padding: 0;
@@ -1851,7 +1851,7 @@
     #conversejs #converse-roster .roster-filter-group .state-type {
       float: left;
       border: 1px solid #999;
-      font-size: calc(44px - 2px);
+      font-size: calc(20px - 2px);
       height: 25px;
       margin: 0;
       padding: 0;
@@ -1860,7 +1860,7 @@
     #conversejs #converse-roster .roster-filter-group .filter-type {
       display: table-cell;
       float: right;
-      font-size: calc(44px - 2px);
+      font-size: calc(20px - 2px);
       height: 25px;
       padding: 0;
       width: 47%;
@@ -1890,11 +1890,11 @@
       clear: both;
       color: #818479;
       display: block;
-      height: 24px;
+      height: 38px;
       overflow-y: hidden;
       padding: 0.3em 0 0.3em 1em;
       text-shadow: 0 1px 0 #FAFAFA;
-      line-height: 44px;
+      line-height: 20px;
       width: 100%; }
       #conversejs #converse-roster .roster-contacts dd .open-chat {
         max-width: 90%; }
@@ -2029,7 +2029,7 @@
         border-bottom-right-radius: 4px;
         border: 0;
         color: #818479;
-        font-size: 44px;
+        font-size: 20px;
         height: 289px;
         height: -webkit-calc(100% - 55px);
         height: calc(100% - 55px);
